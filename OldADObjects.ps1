@@ -1,9 +1,9 @@
-# Gets time stamps for all computers in the domain that have NOT logged in since after specified date 
+D# Gets time stamps for all computers in the domain that have NOT logged in since after specified date 
 # Mod by Tilo 2013-08-27 
 # Updated by Nicole 2017-05-19
 # Run from a DC if possible, update the domain variable, number of days can be changed
 import-module activedirectory  
-$domain = "domain.mydom.com"  
+$domain = "DOMAIN_NAME"  
 $DaysInactive = 90  
 $time = (Get-Date).Adddays(-($DaysInactive)) 
  
