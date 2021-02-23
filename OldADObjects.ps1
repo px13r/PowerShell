@@ -1,4 +1,4 @@
-D# Gets time stamps for all computers in the domain that have NOT logged in since after specified date 
+# Gets time stamps for all computers in the domain that have NOT logged in since after specified date 
 # Mod by Tilo 2013-08-27 
 # Updated by px13r 2017-05-19
 # Run from a DC if possible, update the domain variable, number of days can be changed
